@@ -15,3 +15,26 @@ function clearDisplay() {
 
     alert('Clear button was clicked');
 }
+
+function deleteLast() {
+    console.log('Backspace button pressed.');
+
+    alert('Backspace button was clicked');
+}
+
+function calculate() {
+    console.log('Eqguals button pressed.');
+
+    alert('Equals button was clicked');
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Calculator loaded successfully');
+    console.log('Display element', display);
+
+    if (diaply) {
+        console.log('Current display value:', display.value);
+    } else {
+        console.log('Display element not found');
+    }
+})
